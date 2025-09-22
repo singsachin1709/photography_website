@@ -168,6 +168,11 @@ nav ul li a:hover {
   color: #fff;
 }
 
+/* Global Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+}
+
 /* Contact Section */
 .contact {
   padding: 50px;
