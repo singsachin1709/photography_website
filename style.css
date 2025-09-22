@@ -171,13 +171,15 @@ nav ul li a:hover {
 /* Contact Section */
 .contact {
   padding: 50px;
-  background: #f4f4f4;
+  background: #000; /* Black background */
+  color: #fff; /* White text */
   text-align: center;
 }
 
 .contact h2 {
   font-size: 2rem;
   margin-bottom: 20px;
+  color: #ff6600; /* Accent color for heading */
 }
 
 .contact-info {
@@ -201,14 +203,21 @@ nav ul li a:hover {
   margin-bottom: 15px;
   padding: 12px;
   font-size: 1rem;
-  border: 1px solid #ccc;
+  border: 1px solid #444;
   border-radius: 6px;
+  background: #1a1a1a; /* Dark input background */
+  color: #fff; /* White text */
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #aaa; /* Light gray placeholders */
 }
 
 .contact-form button {
   padding: 12px;
   font-size: 1rem;
-  background: #ff6600;
+  background: #ff6600; /* Accent button */
   color: #fff;
   border: none;
   border-radius: 6px;
@@ -219,5 +228,4 @@ nav ul li a:hover {
 .contact-form button:hover {
   background: #e55b00;
 }
-
 
